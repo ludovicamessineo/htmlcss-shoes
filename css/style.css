@@ -23,10 +23,21 @@ ul {
 /* MENU */
 li {
     display: inline-block;
-    font-size: 1em;
-    padding: 2em;
+    font-size: .8em;
+    margin-right: 15px;
+    border-radius: 50%;
+    line-height: 50%;
+    text-align: center;
+    background-color: white;
+    color: black;
 }
 
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 2em;
+}
 .menu {
     position: fixed;
     top: 10px;
